@@ -1,0 +1,693 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir-Medium.woff");
+}
+* {
+  font-family: "Vazir";
+}
+a {
+  text-decoration: none !important;
+}
+main {
+  margin-top: 50px;
+}
+.home-page{
+  overflow-x: hidden;
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  right: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: left;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+.navbar-nav {
+  padding-right: 12px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+#rtl {
+  margin-right: 10px !important;
+}
+.dropdown-menu {
+  text-align: right;
+}
+.dropdown-menu {
+  margin: 0.125rem -88px 0;
+}
+.btn-services {
+  background-color: transparent;
+  color: #fff;
+}
+.nav-link {
+  color: #fff !important;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bg-dark {
+  background-color: #343a40a1 !important;
+}
+.box-validate-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.box-validate-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.img-box-1 {
+  max-width: 250px;
+}
+.title-box-1 {
+  color: #777;
+  text-align: center;
+}
+.title-box-1:hover {
+  color: rgb(56, 56, 56);
+}
+.img-box-2 {
+  max-width: 150px;
+  text-align: center;
+}
+.box-medium {
+  text-align: center;
+}
+.box-img-bg {
+  width: 100%;
+  height: 500px;
+  background: url("../image/4.jpg") fixed;
+  margin: 140px 0;
+}
+.bg-shadow {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: "vazir";
+  text-align: center;
+}
+.bg-shadow h2 {
+  margin-bottom: 50px;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background: rgb(197, 28, 28);
+  color: rgb(214, 214, 214);
+  margin-top: 100px;
+}
+.box-footer1,
+.box-footer2,
+.box-footer3,
+.box-footer4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.box-footer1 p {
+  text-align: justify;
+  text-align-last: center;
+}
+.box-footer2 ul li a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+.box-footer2 ul li {
+  text-align: right;
+  margin-top: 10px;
+}
+.box-footer3 h4 {
+  text-align: center;
+  margin-top: 30px;
+}
+.a-footer {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.box-social {
+  margin-top: 30px;
+}
+.button-footer {
+  display: flex;
+}
+.image-warranty-box {
+  width: 100%;
+  height: 500px;
+  background: url("../image/4.jpg") fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-complaint-box {
+  width: 100%;
+  height: 500px;
+  background: url("../image/4.jpg") fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-Survey-box {
+  width: 100%;
+  height: 500px;
+  background: url("../image/4.jpg") fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-question-box {
+  width: 100%;
+  height: 500px;
+  background: url("../image/4.jpg") fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-question-box-shadow {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-question-box-shadow h1 {
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 2px 7px #fff;
+  font-size: 65px;
+}
+.image-Survey-box-shadow {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-Survey-box-shadow h1 {
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 2px 7px #fff;
+  font-size: 65px;
+}
+.image-warranty-box-shadow h1 {
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 2px 7px #fff;
+  font-size: 65px;
+}
+.image-complaint-box-shadow {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-complaint-box-shadow h1 {
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 2px 7px #fff;
+  font-size: 65px;
+}
+.image-warranty-box-shadow {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-catalog-box {
+  width: 100%;
+  height: 500px;
+  background: url("../image/4.jpg") fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-catalog-box-shadow {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-catalog-box-shadow h1 {
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 2px 7px #fff;
+  font-size: 65px;
+}
+.image-about-box {
+  width: 100%;
+  height: 500px;
+  background: url("../image/4.jpg") fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-about-box-shadow {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-about-box-shadow h1 {
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 2px 7px #fff;
+  font-size: 65px;
+}
+.image-contact-box {
+  width: 100%;
+  height: 500px;
+  background: url("../image/4.jpg") fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-contact-box-shadow {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-contact-box-shadow h1 {
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 2px 7px #fff;
+  font-size: 65px;
+}
+.text-warranty-box {
+  width: 100%;
+  height: auto;
+  background-color: rgb(218, 218, 218);
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.warranty-text {
+  padding: 120px;
+}
+.warranty-text h4 {
+  margin-bottom: 30px;
+}
+.warranty-text ul {
+}
+.form-group {
+  margin-top: 50px;
+}
+.form-complaint1,
+.form-complaint2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-complaint2 input[type="text"],
+.form-complaint1 input[type="text"],
+.form-complaint1 input[type="email"] {
+  width: 85%;
+  margin-bottom: 20px;
+}
+.form-group {
+  overflow-x: hidden;
+}
+.textarea-complaint {
+  width: 80%;
+}
+.textarea-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.textarea-box textarea {
+  resize: none;
+}
+.button-submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.button-submit input[type="submit"] {
+  width: 50%;
+  margin: 30px 0;
+}
+.radio-box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.radio-box label {
+  margin-left: 10px;
+}
+.radio-b {
+  display: flex;
+}
+.typography-question {
+  margin-top: 40px;
+}
+.form-catalog {
+}
+.form-catalog input[type="text"] {
+  width: 45%;
+  display: inline-block;
+  margin-right: 40px;
+}
+.form-catalog input[type="submit"] {
+  width: 30%;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+.img-about {
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-text h3 {
+  margin-bottom: 50px;
+}
+.about-text p {
+  text-align: justify;
+}
+.contact-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact-text p {
+  margin-top: 45px;
+  padding: 10px;
+  font-size: 20px;
+}
+.contact-text {
+}
+.mySwiper {
+  height: 790px;
+}
+.grid-contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.grid-contact h3 {
+  text-align: initial;
+  margin-top: 30px;
+}
+.grid-contact p {
+  margin-top: 20px;
+  text-align: justify;
+}
+.request-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.request-form input {
+  margin-top: 30px;
+}
+.discription {
+  margin-top: 20px;
+  resize: none;
+}
+.btn-request {
+  width: 75%;
+  text-align: center;
+  display: block;
+  margin: 35px auto 0 auto;
+}
+.resume {
+  margin-top: 20px;
+}
+.nav-item{
+  font-size: 16px;
+}
+.box-blog{
+  width: 80%;
+  height: auto;
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+}
+.img-blog{
+  width: 100%;
+  height: 200px;
+}
+.box-blog h4{
+  text-align: center;
+  margin-top: 10px;
+}
+.box-blog p{
+  text-align: justify;
+  padding: 0 10px 0 10px;
+}
+.btn-blog{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.blog-box-main{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.mt-blog{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  justify-content: center;
+  border-radius: .25rem;
+  margin-top: 60px;
+}
+@media screen and (max-width: 868px) {
+  .form-catalog input[type="text"] {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dropdown-item {
+    margin-right: 50px;
+  }
+  .warranty-text {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .form-catalog input::placeholder {
+    font-size: 13px;
+  }
+  .lang-text-input::placeholder {
+    font-size: 11px;
+  }
+  .image-catalog-box-shadow h1 {
+    font-size: 30px;
+  }
+  .image-contact-box-shadow h1 {
+    font-size: 35px;
+  }
+  .warranty-text {
+    padding: 15px;
+  }
+  .image-question-box-shadow h1{
+    font-size: 40px;
+  }
+  .image-warranty-box-shadow h1{
+    font-size: 50px;
+  }
+}
