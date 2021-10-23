@@ -223,8 +223,9 @@ body {
   max-width: 250px;
 }
 .title-box-1 {
-  color: #777;
+  color: rgb(43, 43, 43);
   text-align: center;
+  margin-top: 20px;
 }
 .title-box-1:hover {
   color: rgb(56, 56, 56);
@@ -239,11 +240,11 @@ body {
 .box-img-bg {
   width: 100%;
   height: 500px;
-  background: url("../image/4.jpg") fixed;
+  background: url("../image/11.jpg") no-repeat fixed center;
   margin: 140px 0;
 }
 .bg-shadow {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
   display: flex;
@@ -253,6 +254,9 @@ body {
   color: #fff;
   font-family: "vazir";
   text-align: center;
+}
+.bg-shadow p{
+  line-height:  30px;
 }
 .bg-shadow h2 {
   margin-bottom: 50px;
@@ -667,6 +671,25 @@ footer {
   .warranty-text {
     padding: 50px;
   }
+  .mySwiper {
+    width: 100%;
+    height: 400px;
+  }
+  .res-box1{
+    margin-top: 150px;
+  }
+  .res-box1 img{
+    width: 150px ;
+    height: 150px;
+  }
+  .res-box2{
+    margin-top: 150px;
+
+  }
+  .res-box2 img{
+    width: 100px;
+    height: 100px;
+  }
 }
 @media screen and (max-width: 500px) {
   .form-catalog input::placeholder {
@@ -689,5 +712,9 @@ footer {
   }
   .image-warranty-box-shadow h1{
     font-size: 50px;
+  }
+  .mySwiper {
+    width: 100%;
+    height: 300px;
   }
 }
