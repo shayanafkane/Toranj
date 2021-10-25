@@ -671,6 +671,11 @@ footer {
 .end-footer h4 span{
   color: rgb(201, 201, 201);
 }
+.alert-activation{
+  text-align: center;
+  direction: rtl;
+  margin-top: 10px;
+}
 @media screen and (max-width: 868px) {
   .form-catalog input[type="text"] {
     display: block;
