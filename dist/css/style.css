@@ -657,6 +657,20 @@ footer {
   border-radius: .25rem;
   margin-top: 60px;
 }
+.end-footer{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #f1f1f1;
+}
+.end-footer h4{
+  margin-top: 10px;
+
+}
+.end-footer h4 span{
+  color: rgb(201, 201, 201);
+}
 @media screen and (max-width: 868px) {
   .form-catalog input[type="text"] {
     display: block;
