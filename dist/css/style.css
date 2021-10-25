@@ -481,7 +481,6 @@ footer {
 .form-complaint2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .form-complaint2 input[type="text"],
