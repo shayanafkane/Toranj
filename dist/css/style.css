@@ -676,6 +676,14 @@ footer {
   direction: rtl;
   margin-top: 10px;
 }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+ 
+    pointer-events: none;
+}
 @media screen and (max-width: 868px) {
   .form-catalog input[type="text"] {
     display: block;
