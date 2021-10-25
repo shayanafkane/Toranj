@@ -711,6 +711,13 @@ footer {
   }
 }
 @media screen and (max-width: 500px) {
+  .box-img-bg{
+    height: auto;
+  }
+  .bg-shadow h2 {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
   .form-catalog input::placeholder {
     font-size: 13px;
   }
